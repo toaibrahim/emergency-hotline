@@ -12,14 +12,76 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <!-- bg color : dark-#013223 light-#006747 button-color : #00A63E light-btn:#41ff6b -->
 
     <header>
-        
+
+        <!-- Navbar -->
+        <div class="navbar max-w-7xl mx-auto my-4">
+            <nav class="w-full flex justify-between md:flex-row lg:flex-row flex-col items-center">
+                <div class="left flex justify-between items-center gap-2 mb-4">
+                    <img class="w-12 h-12" src="assets/logo.png" alt="">
+                    <h2 class="text-[18px] font-bold text-[#006747]">Emergency <br>Service</h2>
+                </div>
+                <div class="right flex justify-between items-center gap-5">
+                    <div id="love" class="w-[100px] h-[50px] bg-[#41ff6a1a] gap-2 rounded-3xl flex justify-center items-center">
+                        <p class="text-base font-bold">0</p>
+                        <img class="w-[25px] h-[25px]" src="assets/heart.png" alt="">
+                    </div>
+                    <div id="coin" class="w-[100px] h-[50px] bg-[#41ff6a1a] gap-2 rounded-3xl flex justify-center items-center">
+                        <p class="font-bold">100</p>
+                        <img class="w-[25px] h-[25px]" src="assets/coin.png" alt="">
+                    </div>
+                    <div id="copy" class="w-[120px] h-[50px] bg-[#00A63E] text-white font-bold gap-2 rounded-3xl flex justify-center items-center">
+                        <p>2</p>
+                        <h4>Copy</h4>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Hero Section -->
+
+        <section id="hero" class="bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] ...">
+            <div class="content text-center py-8">
+                <img class="mx-auto w-24 h-24" src="assets/logo.png" alt="">
+                <h2 class="py-4 text-white text-[40px] font-semibold">জরুরি সেবা ডিরেক্টরি</h2>
+                <p class="text-white text-[20px] font-semibold">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+            </div>
+
+        </section>
 
     </header>
 
-    <main>
+    <main class="bg-[#0067461f] max-w-7xl mx-auto my-12">
+        <div class="container flex justify-between items-start gap-6">
+            <div class="left w-3/4 h-1100 border-2 border-red-600 bg-white">
+                <div class="card">
+                    <div class="card-top">
+                        <div class="image">
+                            <img src="assets/emergency.png" alt="">
+                        </div>
+                        <div id="fav">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="card-middle">
+                        <h2>জাতীয় জরুরি সেবা</h2>
+                        <p>National Emergency</p>
+                        <h1>999</h1>
+                        
+                        <button class="btn btn-soft">সার্বজনীন</button>
+                    </div>
+                    <div class="card-button">
+                        <button class="btn btn-outline btn-primary"><i class="fa-solid fa-copy"></i>Copy</button>
+                        <button class="btn btn-primary"><i class="fa-solid fa-phone"></i>Call</button>
+                    </div>
+                </div>
+            </div>
+            <div class="righ w-1/4 h-1100 border-2 border-red-600 bg-white">
 
+            </div>
+        </div>
     </main>
 
 
