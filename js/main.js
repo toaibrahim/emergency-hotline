@@ -80,6 +80,17 @@ function trackHistory(cardTitle,cardNumber){
 }
 
 
+// copy Number functionalities
+
+function copyNumber(numCopy){
+    const numToCopy = document.getElementById(numCopy).innerHTML;
+    const numShow = document.getElementById('copy-num');
+    alert(`${numToCopy} is copied`);
+    count = count+1;
+    numShow.innerText = count;
+}
+
+
 
 document.getElementById('card1-call-btn').addEventListener('click',function(){
     altfunc('card1-title','card1-num');
@@ -376,5 +387,46 @@ document.getElementById('card9-call-btn').addEventListener('click',function(){
 // copy number 
 
 document.getElementById('card1-copy-btn').addEventListener('click',function(){
-    const numToCopy = document.getElementById('card1-num')
+
+    copyNumber('card1-num');
+})
+
+document.getElementById('card2-copy-btn').addEventListener('click',function(){
+
+    copyNumber('card2-num');
+})
+
+document.getElementById('card3-copy-btn').addEventListener('click',function(){
+
+    copyNumber('card3-num');
+})
+
+document.getElementById('card4-copy-btn').addEventListener('click',function(){
+
+    copyNumber('card4-num');
+})
+
+document.getElementById('card5-copy-btn').addEventListener('click',function(){
+
+    copyNumber('card5-num');
+})
+
+document.getElementById('card6-copy-btn').addEventListener('click',function(){
+
+    copyNumber('card6-num');
+})
+
+document.getElementById('card7-copy-btn').addEventListener('click',function(){
+
+    copyNumber('card7-num');
+})
+
+document.getElementById('card8-copy-btn').addEventListener('click',function(){
+
+    copyNumber('card8-num');
+})
+
+document.getElementById('card9-copy-btn').addEventListener('click',function(){
+
+    copyNumber('card9-num');
 })

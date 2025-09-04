@@ -33,7 +33,7 @@
                         <img class="w-[25px] h-[25px]" src="assets/coin.png" alt="">
                     </div>
                     <div id="copy" class="w-[120px] h-[50px] bg-[#00A63E] text-white font-bold gap-2 rounded-3xl flex justify-center items-center">
-                        <p>2</p>
+                        <p id="copy-num">0</p>
                         <h4>Copy</h4>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                         <button class="text-gray-600 bg-gray-200 text-base px-6 py-2 rounded-3xl mb-4">Police</button>
                     </div>
                     <div class="card-button flex justify-between items-center">
-                        <button class="bg-white border-1 border-gray-500 text-base text-gray-500 px-12 rounded-lg py-2 mr-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-copy"></i>Copy</button>
+                        <button id="card2-copy-btn" class="bg-white border-1 border-gray-500 text-base text-gray-500 px-12 rounded-lg py-2 mr-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-copy"></i>Copy</button>
                         <button id="card2-call-btn" class="bg-[#00A63E] border-1 text-base text-white rounded-lg px-12 py-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-phone"></i>Call</button>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
                         <button class="text-gray-600 bg-gray-200 text-base px-6 py-2 rounded-3xl mb-4">ফায়ার</button>
                     </div>
                     <div class="card-button flex justify-between items-center">
-                        <button class="bg-white border-1 border-gray-500 text-base text-gray-500 px-12 rounded-lg py-2 mr-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-copy"></i>Copy</button>
+                        <button id="card3-copy-btn" class="bg-white border-1 border-gray-500 text-base text-gray-500 px-12 rounded-lg py-2 mr-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-copy"></i>Copy</button>
                         <button id="card3-call-btn" class="bg-[#00A63E] border-1 text-base text-white rounded-lg px-12 py-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-phone"></i>Call</button>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
                         <button class="text-gray-600 bg-gray-200 text-base px-6 py-2 rounded-3xl mb-4">সার্বজনীন</button>
                     </div>
                     <div class="card-button flex justify-between items-center">
-                        <button class="bg-white border-1 border-gray-500 text-base text-gray-500 px-12 rounded-lg py-2 mr-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-copy"></i>Copy</button>
+                        <button id="card4-copy-btn" class="bg-white border-1 border-gray-500 text-base text-gray-500 px-12 rounded-lg py-2 mr-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-copy"></i>Copy</button>
                         <button id="card4-call-btn" class="bg-[#00A63E] border-1 text-base text-white rounded-lg px-12 py-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-phone"></i>Call</button>
                     </div>
                 </div>
@@ -173,7 +173,7 @@
                         <button class="text-gray-600 bg-gray-200 text-base px-6 py-2 rounded-3xl mb-4">সহায়তা</button>
                     </div>
                     <div class="card-button flex justify-between items-center">
-                        <button class="bg-white border-1 border-gray-500 text-base text-gray-500 px-12 rounded-lg py-2 mr-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-copy"></i>Copy</button>
+                        <button id="card5-copy-btn" class="bg-white border-1 border-gray-500 text-base text-gray-500 px-12 rounded-lg py-2 mr-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-copy"></i>Copy</button>
                         <button id="card5-call-btn" class="bg-[#00A63E] border-1 text-base text-white rounded-lg px-12 py-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-phone"></i>Call</button>
                     </div>
                 </div>
@@ -197,7 +197,7 @@
                         <button class="text-gray-600 bg-gray-200 text-base px-6 py-2 rounded-3xl mb-4">সরকারি</button>
                     </div>
                     <div class="card-button flex justify-between items-center">
-                        <button class="bg-white border-1 border-gray-500 text-base text-gray-500 px-12 rounded-lg py-2 mr-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-copy"></i>Copy</button>
+                        <button id="card6-copy-btn" class="bg-white border-1 border-gray-500 text-base text-gray-500 px-12 rounded-lg py-2 mr-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-copy"></i>Copy</button>
                         <button id="card6-call-btn" class="bg-[#00A63E] border-1 text-base text-white rounded-lg px-12 py-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-phone"></i>Call</button>
                     </div>
                 </div>
@@ -221,7 +221,7 @@
                         <button class="text-gray-600 bg-gray-200 text-base px-6 py-2 rounded-3xl mb-4">সার্বজনীন</button>
                     </div>
                     <div class="card-button flex justify-between items-center">
-                        <button class="bg-white border-1 border-gray-500 text-base text-gray-500 px-12 rounded-lg py-2 mr-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-copy"></i>Copy</button>
+                        <button id="card7-copy-btn" class="bg-white border-1 border-gray-500 text-base text-gray-500 px-12 rounded-lg py-2 mr-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-copy"></i>Copy</button>
                         <button id="card7-call-btn" class="bg-[#00A63E] border-1 text-base text-white rounded-lg px-12 py-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-phone"></i>Call</button>
                     </div>
                 </div>
@@ -245,7 +245,7 @@
                         <button class="text-gray-600 bg-gray-200 text-base px-6 py-2 rounded-3xl mb-4">এনজিও</button>
                     </div>
                     <div class="card-button flex justify-between items-center">
-                        <button class="bg-white border-1 border-gray-500 text-base text-gray-500 px-12 rounded-lg py-2 mr-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-copy"></i>Copy</button>
+                        <button id="card8-copy-btn" class="bg-white border-1 border-gray-500 text-base text-gray-500 px-12 rounded-lg py-2 mr-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-copy"></i>Copy</button>
                         <button id="card8-call-btn" class="bg-[#00A63E] border-1 text-base text-white rounded-lg px-12 py-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-phone"></i>Call</button>
                     </div>
                 </div>
@@ -269,7 +269,7 @@
                         <button class="text-gray-600 bg-gray-200 text-base px-6 py-2 rounded-3xl mb-4">পরিবহন</button>
                     </div>
                     <div class="card-button flex justify-between items-center">
-                        <button class="bg-white border-1 border-gray-500 text-base text-gray-500 px-12 rounded-lg py-2 mr-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-copy"></i>Copy</button>
+                        <button id="card9-copy-btn" class="bg-white border-1 border-gray-500 text-base text-gray-500 px-12 rounded-lg py-2 mr-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-copy"></i>Copy</button>
                         <button id="card9-call-btn" class="bg-[#00A63E] border-1 text-base text-white rounded-lg px-12 py-2"><i style="display: inline;margin-right: 8px;" class="fa-solid fa-phone"></i>Call</button>
                     </div>
                 </div>
